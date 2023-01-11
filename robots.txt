@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /posts/
+Allow: /tags/
+
+Disallow: /archives/
+Disallow: /categories/
+Disallow: /js/
+Disallow: /css/
+Disallow: /about/
+
+
+Sitemap: https://maoxiaoyun.top/sitemap.xml
+Sitemap: https://maoxiaoyun.top/baidusitemap.xml
