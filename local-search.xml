@@ -3,24 +3,5 @@
   
   
   
-  <entry>
-    <title>Java代码审计</title>
-    <link href="/posts/52097.html"/>
-    <url>/posts/52097.html</url>
-    
-    <content type="html"><![CDATA[<h1 id="文件上传函数"><a href="#文件上传函数" class="headerlink" title="文件上传函数"></a>文件上传函数</h1><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">Multipartfile</span><br><span class="hljs-attribute">ServletFileUpload</span><br></code></pre></td></tr></table></figure><h1 id="文件读取与下载函数"><a href="#文件读取与下载函数" class="headerlink" title="文件读取与下载函数"></a>文件读取与下载函数</h1><figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs arduino">Files.read<br>Files.readString<br>FileReader<br>BufferedReader<br>Scanner<br>RandomAccessFile<br>readFileToString<br><br></code></pre></td></tr></table></figure><h1 id="命令执行"><a href="#命令执行" class="headerlink" title="命令执行"></a>命令执行</h1><figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gradle"><span class="hljs-keyword">Runtime</span>.getRuntime<br>ProcessBuilder<br>UNIXProcess或ProcessImpl<br></code></pre></td></tr></table></figure><h1 id="序列化和反序列化"><a href="#序列化和反序列化" class="headerlink" title="序列化和反序列化"></a>序列化和反序列化</h1><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs">ObjectOutputStream类的writeObject<br>ObjectInputStream类的readObject<br></code></pre></td></tr></table></figure><p>优秀Java代码审计文章系列</p><p>1、<a href="https://www.secpulse.com/archives/193771.html">红队-java代码审计生命周期</a></p>]]></content>
-    
-    
-    <categories>
-      
-      <category>Java安全</category>
-      
-    </categories>
-    
-    
-  </entry>
-  
-  
-  
   
 </search>
